@@ -1,1 +1,83 @@
-p,textarea{margin-bottom:10px}.bg,textarea{background-color:#fff;padding:20px}.row,body{display:flex}select,textarea{color:#333;width:550px}body,button{background-color:#ff8a00}*{margin:0;padding:0;box-sizing:border-box}body{align-items:center;justify-content:center;min-height:100vh}.bg{text-align:center;box-shadow:0 4px 8px rgba(0,0,0,.1);border-radius:2%}.bg h1{color:#333;font-size:45px;font-weight:700;margin-top:auto;margin-bottom:20px;background-color:#fff}p{color:#333;font-size:25px;font-weight:150;text-align:left;background-color:#fff}textarea{height:250px;font-size:15px;border:none;resize:none;border-radius:2%}.row{align-items:center;justify-content:center;flex-direction:column;gap:20px}select{height:50px;padding:0 20px;outline:0;border:1px solid #333;border-radius:10px}button{color:#fff;font-size:16px;padding:10px 30px;border:0;outline:0;cursor:pointer;border-radius:10px}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ff8a00; /* Set the background color of the body */
+}
+
+.bg {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+
+.bg h1 {
+    color: #333;
+    font-size: 45px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+p {
+    color: #333;
+    font-size: 25px;
+    font-weight: 150;
+    text-align: left;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 550px;
+    height: 250px;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: #ffffff;
+    font-size: 15px;
+    border: 2px solid #000;  /* Updated border property for a bold border */
+    padding: 20px;
+    resize: none;
+    border-radius: 2%;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Change to column layout */
+    gap: 20px;
+}
+
+select {
+    color: #333;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 1px solid #333; /* Specify border size and color */
+    border-radius: 10px;
+    width: 550px;
+}
+
+button {
+    background-color: #ff8a00;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
