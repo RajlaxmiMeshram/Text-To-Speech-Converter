@@ -25,3 +25,5 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 ### Acknowledgments
 - Built with ❤️ by Rajlaxmi Meshram.</br>
+  For more details on my journey of building this calculator and other tech-related articles, visit [my Hashnode blog.](https://rajlaxmimeshram.hashnode.dev/)
+  
